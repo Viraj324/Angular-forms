@@ -1,1 +1,6 @@
 <p>dashboard works!</p>
+<div *ngFor="let user of users">
+    <h2>Welcome, {{ user.name }}!</h2>
+    <p>Email: {{ user.email }}</p>
+    <!-- Add more information as needed -->
+  </div>
